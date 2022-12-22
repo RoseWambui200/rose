@@ -1,19 +1,47 @@
 form{
     border: solid 1px red;
-    max-width: 30%;
+    max-width: 500px;
     padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: auto;
+}
+*{
+    box-sizing: border-box;
 }
 .input_text{
     color: blue;
     border: solid blue 1px;
-    padding: 10px;
+    padding: 12px;
     border-radius: 10px;
-    width: 300px;
-   
-    
+    width: 100%;  
+}
+.input_text:focus{
+    background-color: aqua;
+    border: 2px solid purple;
 }
 
 .button{
-    background-color: blue;
-    width: 400px;
+    background-color: rgb(147, 147, 223);
+    width: 100%;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+}
+.button:hover{
+    background-color: aquamarine;
+}
+
+.container_input{
+    display: flex;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.icon{
+    width: 50px;
+    padding: 12px;
+    background-color: #ffcc00;
+    color: rgb(92, 92, 157);
+    text-align: center;
 }
