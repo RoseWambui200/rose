@@ -1,0 +1,19 @@
+form{
+    border: solid 1px red;
+    max-width: 30%;
+    padding: 10px;
+}
+.input_text{
+    color: blue;
+    border: solid blue 1px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 300px;
+   
+    
+}
+
+.button{
+    background-color: blue;
+    width: 400px;
+}
